@@ -87,6 +87,10 @@ Screenshot 2: File ...create_kategoris_table.php<img width="1920" height="1080" 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d3752f23-59b4-4235-b734-f22d6e73a6d1" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c1f7728-2c0f-4b49-b625-8771b38520d9" />
 
+SS ERD
+<img width="1031" height="461" alt="image" src="https://github.com/user-attachments/assets/6cc98b74-3b04-4ec4-88b7-4fca5d10ee86" />
+
+
 
 
 
