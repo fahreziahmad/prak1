@@ -49,17 +49,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
@@ -77,6 +67,31 @@ Login
 
 Register
 <img width="1920" height="1080" alt="Screenshot 2026-02-28 095759" src="https://github.com/user-attachments/assets/d6c67334-b285-4654-87af-50336934cefc" />
+
+Pertemuan-3.md
+
+1.Model (Folder app/Models/
+app/Models/Product.php<img width="1920" height="1080" alt="Screenshot 2026-03-11 003926" src="https://github.com/user-attachments/assets/06f1e469-4e72-4ba7-adef-b90b449da878" />
+
+app/Models/Kategori.php<img width="1920" height="1080" alt="Screenshot 2026-03-11 003938" src="https://github.com/user-attachments/assets/950cac95-5fdd-43cc-94e2-ca2307f170d9" />
+
+2. Migration (Folder database/migrations/)
+Screenshot 1: File ...create_products_table.php<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8240f67-41bc-4419-b1c6-00ee912e4afd" />
+
+Screenshot 2: File ...create_kategoris_table.php<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/693bb902-797e-4927-b219-0178bc6c87a8" />
+
+3. Database (phpMyAdmin)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82c1b12c-a96d-46d4-9879-e1c4bdb13eef" />
+
+4️ Screenshot Struktur Tabel
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d3752f23-59b4-4235-b734-f22d6e73a6d1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c1f7728-2c0f-4b49-b625-8771b38520d9" />
+
+
+
+
+
+
 
 
 
