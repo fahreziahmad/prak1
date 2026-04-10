@@ -16,6 +16,17 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/about', [App\Http\Controllers\aboutcontroller::class, 'index'])->name('about');
+    
+    // Rute yang diamankan dengan gate 'manage-product'
+    Route::middleware('can:manage-product')->group(function () {
+        Route::get('/kategori', function () {
+            return 'Halaman Kategori (Hanya Admin)';
+        })->name('kategori');
+        
+        Route::get('/product', function () {
+            return 'Halaman Product (Hanya Admin)';
+        })->name('product');
+    });
 });
 
 require __DIR__.'/auth.php';
