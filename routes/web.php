@@ -22,10 +22,11 @@ Route::middleware('auth')->group(function () {
         Route::get('/kategori', function () {
             return 'Halaman Kategori (Hanya Admin)';
         })->name('kategori');
-        
-        Route::get('/product', function () {
-            return 'Halaman Product (Hanya Admin)';
-        })->name('product');
+
+        Route::resource('product', \App\Http\Controllers\ProductController::class)->except(['show', 'destroy']);
+    });
+    Route::middleware('can:manage-category')->group(function () {
+        Route::resource('category', \App\Http\Controllers\CategoryController::class);
     });
 });
 
